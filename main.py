@@ -3,7 +3,7 @@ def es_armstrong(numero):
     cantidad_digitos = len(numero_texto)
     
     suma = 0
-    
+    ### 1 en 111
     for digito_texto in numero_texto:
         
         digito = int(digito_texto)
@@ -15,8 +15,8 @@ def es_armstrong(numero):
     else:
         return False
     
-print("Confirma si tu número es Armstrong")
-print()
+print("!\n\t¡Confirma si tu número es Armstrong!\n")
+
 
 user_input = int(input("Ingresa un número entero positivo: "))
 
